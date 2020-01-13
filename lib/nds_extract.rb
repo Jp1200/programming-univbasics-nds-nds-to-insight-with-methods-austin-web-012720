@@ -8,6 +8,7 @@ def gross_for_director(director_data)
   row_index = 0 
   while row_index < director_data.length do 
     pp director_data[row_index]
+    
     row_index += 1 
 end
 end
