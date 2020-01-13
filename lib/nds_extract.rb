@@ -10,7 +10,7 @@ def gross_for_director(director_data)
       column_index = 0 
       director_total = 0 #reintitalize value 
           director_total += director_data[row_index][:movies][:worldwide_grosses]
-    return director_total
+    pp director_total
     row_index += 1 
 end
 end
