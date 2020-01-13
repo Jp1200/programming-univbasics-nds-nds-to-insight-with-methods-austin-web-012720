@@ -14,7 +14,7 @@ def gross_for_director(director_data)
        # puts " World wide gross for the #{row_index + 1} movie is #{director_total}" 
     row_index += 1 
   end
-  pp director_total
+  return director_total
 end
 
 # Write a method that, given an NDS creates a new Hash
