@@ -10,7 +10,7 @@ def gross_for_director(director_data)
   while row_index < director_data[:movies].length do  # 
       
       director_total += director_data[:movies][row_index][:worldwide_gross]                       # adds each movies gross to a value director_total 
-      puts " World wide gross for the #{row_index + 1} movie is #{director_total}" 
+     # puts " World wide gross for the #{row_index + 1} movie is #{director_total}" 
     row_index += 1 
   end
   pp director_total
