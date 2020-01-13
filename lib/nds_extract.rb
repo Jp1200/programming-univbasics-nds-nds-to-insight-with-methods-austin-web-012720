@@ -9,7 +9,7 @@ def gross_for_director(director_data)
   while row_index < director_data.length do 
       column_index = 0 
       director_total = 0 #reintitalize value 
-          director_total += director_data[row_index][:movies][:worldwide_grosses]
+          director_total += director_data[:movies][row_index][:worldwide_grosses]
     pp director_total
     row_index += 1 
 end
